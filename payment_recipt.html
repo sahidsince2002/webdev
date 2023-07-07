@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Recipt</title>
+</head>
+<body>
+    <form action="">
+     <h1><b>PAYMENT RECIPT</b></h1>
+     <p>* are the fields mendatory</p>
+     <h2>Personal Details</h2>
+     <p>First Name : <input type="text" name="name"> Middle Name: <input type="text" name="text" id="text"> Last Name : <input type="text" name="text" id="text"></p>
+     <p>Age : <input type="number" name="number" ></p>
+     <p>DOB* : <input type="date" name="date>" required></p>    
+     <fieldset>
+     <legend>Gender*</legend> 
+     <p>Male <input type="radio" name="Gender" id="Gender" > Female <input type="radio" name="Gender" id="Gender"> Others <input type="radio" name="Gender" id="Gender"></p>
+    </fieldset>
+     <p>Address <textarea name="address" id="address" cols="50" rows="10"></textarea></p> 
+     <p>Email* : <input type="email" id="email"></p>
+     <p>Area Pin* : <input type="number" id="number" required></p>
+    <fieldset>
+     <legend>Caste</legend> 
+         <p>General <input type="checkbox" name="checkbox" id="checkbox"> 
+         SC <input type="checkbox" name="checkbox" id="checkbox"> 
+         ST <input type="checkbox" name="checkbox" id="checkbox"> 
+         OBC <input type="checkbox" name="checkbox" id="checkbox"> </p>
+       
+     </p>
+    </fieldset>  
+     <hr>
+     <h3>Card Details</h3>
+     
+     <p>Card holder : <input type="text" name="text" id="text"></p>
+     <p>Card type <select name="card_type" id="card_type"></p>
+       <option value="">--Select a card--</option>
+       <option value="Debit card">Debit card </option>
+       <option value="credit card">Credit card </option>
+       <option value="upi">UPI </option>
+       <option value="Phone_pay">Phone pay </option>
+    </select>
+    <p>Card number* <input type="number" name="number" id="number"></p>
+    <p>CVV* <input type="password" name="password" id="password" maxlength="3" required></p>
+    <p>Expiry Date* <input type="month" name="month" id="month"></p>
+    <p> <input type="submit" value="Pay now"></p>
+    </form>
+
+    
+
+
+
+
+</body>
+</html>
